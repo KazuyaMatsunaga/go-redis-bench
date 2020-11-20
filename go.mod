@@ -1,7 +1,7 @@
-module github.com/KazuyaMatsunaga/go-redis-bench
+module github.com/go-redis-bench
 
 require (
-	github.com/boltdb/bolt v1.3.1
-	github.com/garyburd/redigo v1.6.2
 	github.com/go-redis/redis v6.15.9+incompatible
+	github.com/gomodule/redigo v2.0.0+incompatible
+	go.etcd.io/bbolt v1.3.5
 )

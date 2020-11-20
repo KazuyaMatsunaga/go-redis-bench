@@ -3,8 +3,8 @@ package rbbench_test
 import (
 	"testing"
 
-	"github.com/boltdb/bolt"
-	redigo "github.com/garyburd/redigo/redis"
+	bolt "go.etcd.io/bbolt"
+	redigo "github.com/gomodule/redigo/redis"
 	redis "github.com/go-redis/redis"
 )
 
