@@ -1,0 +1,7 @@
+version: '3'
+services:
+  go-redis-for-bench:
+    image: redis:latest
+    ports: 
+    - 6379:6379
+    container_name: go-redis-for-bench
